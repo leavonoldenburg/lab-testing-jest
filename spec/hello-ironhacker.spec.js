@@ -1,3 +1,10 @@
+function helloIronhack() {
+  return 'Hello Ironhacker!';
+}
+
+// The following is required to make automated tests run. Please ignore it.
+if (typeof module !== 'undefined') module.exports = { helloIronhack };
+
 describe('Hello Ironhack function', () => {
   // Describes the group of tests
   it('should greet an Ironhacker', () => {
